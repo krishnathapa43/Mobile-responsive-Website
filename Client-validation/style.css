@@ -1,0 +1,68 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.brand-logo{
+    text-align: center;
+}
+
+.form-container{
+    padding: 40px;
+    background-color: #a3d78c;
+    border-radius: 10px;
+}
+
+.form-title{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.form-group{
+margin-bottom: 15px;
+}
+
+.form-group.error input{
+    border: 1px solid red;
+}
+
+.form-group.error .message{
+    color: red;
+}
+
+label,
+input{
+display: block;
+}
+
+input{
+    width: 100%;
+    padding: 5px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #6dbe42;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold ;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(110, 129, 196);
+}
+
